@@ -58,6 +58,7 @@ function createSkillChart() {
     });
 }
 
+
 // Initialize when page loads
 window.addEventListener('DOMContentLoaded', () => {
     createSkillChart();
@@ -72,6 +73,20 @@ window.addEventListener('DOMContentLoaded', () => {
             }, 100);
         });
     }, 500);
+    
+    // Add smooth scroll to footer links
+    document.querySelectorAll('.footer-links a').forEach(link => {
+        link.addEventListener('click', (e) => {
+            const href = link.getAttribute('href');
+            if (href.startsWith('#')) {
+                e.preventDefault();
+                const target = document.querySelector(href);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
+            }
+        });
+    });
 });
 
 
