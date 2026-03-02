@@ -11,7 +11,7 @@ Projects: Real-world analytics projects showcasing data cleaning, visualization,
 
 Portfolio Website: Interactive demos and dashboards.
 
-Skills: Python, SQL, Excel, Tableau, Power BI, and more.
+Skills: Python, SQL, Excel, Power BI, and more.
 
 🌱 My Goals
 
