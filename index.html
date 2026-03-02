@@ -7,22 +7,23 @@
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="#home" class="logo">Anshu Kunn</a>
+            <a href="#home" class="logo">Anshu Kunwar</a>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#experience">Experience</a>
                 <a href="#skills">Skills</a>
                 <a href="#projects">Projects</a>
+                <a href="#showcase">Showcase</a>
                 <a href="#awards">Awards</a>
-                <a href="#contact">Contact</a>
+                <a href="#cta">Hire Me</a>
             </div>
-            <button class="hamburger">
+            <button class="hamburger" aria-label="Toggle menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
@@ -48,70 +49,61 @@
                 </div>
                 <div class="bio">
                     <h2>About Me</h2>
-                    <p>Hi, I'm Anshu Kunwar, a Data enthusiast with expertise in analyzing complex datasets to uncover valuable insights. I specialize in data cleaning, visualization, and reporting to help organizations make data-driven decisions.</p>
-                    <p>With basic knowledge of frontend development, I can create simple interactive data dashboards and presentations. My goal is to bridge the gap between raw data and actionable business intelligence.</p>
+                    <p class="bio-lead">I turn complex data into clear stories that drive decisions.</p>
+                    <p>I'm a data analyst with hands-on experience in cleaning, analyzing, and visualizing datasets—and in communicating findings so stakeholders can act on them. I combine Python, SQL, and tools like Power BI and Excel to deliver reports and dashboards that improve clarity and outcomes.</p>
+                    <p>I also build simple interactive dashboards and data presentations with frontend skills, so insights are not only accurate but easy to explore. My focus is on delivering <strong>actionable business intelligence</strong>, not just numbers.</p>
                     <div class="social">
-                        <a href="https://github.com/Anshukun888" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fas fa-file-pdf" ></i> Resume</a>
+                        <a href="https://github.com/Anshukun888" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/anshu-kunwar" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Resume"><i class="fas fa-file-pdf"></i> Resume</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-<!-- Experience -->
-
+    <!-- Experience -->
     <section id="experience" class="section">
         <div class="container">
-            <h2 class="section-title">My Experience</h2>
+            <h2 class="section-title">Experience</h2>
             <div class="experience-timeline">
-                <!-- Student Support Role -->
                 <div class="experience-item">
-                    <div class="experience-date">2023 - 2024</div>
+                    <div class="experience-date">2023 – 2024</div>
                     <div class="experience-content">
                         <h3>Student Support Officer</h3>
                         <p class="company">Maven Consulting Group</p>
                         <ul>
-                            <li>Assisted students with foreign study applications and documentation</li>
-                            <li>Coordinated between students, parents, and educational institutions</li>
-                            <li>Developed problem-solving skills in academic counseling scenarios</li>
-                            <li>Improved communication skills through daily student interactions</li>
+                            <li>Coordinated foreign study applications and documentation for students and parents.</li>
+                            <li>Improved communication and problem-solving across students, parents, and institutions.</li>
                         </ul>
                     </div>
                 </div>
-                
-                <!-- Hackathon Winner -->
                 <div class="experience-item">
                     <div class="experience-date">2024</div>
                     <div class="experience-content">
-                        <h3>Hackathon Winner - Smart College</h3>
+                        <h3>Hackathon Winner — Smart College</h3>
                         <p class="company">College Competition</p>
                         <ul>
-                            <li>Developed "Smart Catten" - a food ordering system for classrooms</li>
-                            <li>Collaborated in a team to design and implement the web solution</li>
-                            <li>Presented the project to judges and faculty members</li>
-                            <li>Awarded "Best Creative Idea" for innovative campus solution</li>
+                            <li>Developed "Smart Catten," a food-ordering system for classrooms, with a full-stack web solution.</li>
+                            <li>Presented to judges and faculty; awarded <strong>Best Creative Idea</strong> for the campus solution.</li>
                         </ul>
                     </div>
                 </div>
-                
-                <!-- Academic Development -->
                 <div class="experience-item">
                     <div class="experience-date">2025</div>
                     <div class="experience-content">
-                        <h3>Academic Development</h3>
-                        <p class="company">Self-Improvement</p>
+                        <h3>Academic & Technical Development</h3>
+                        <p class="company">Self-directed</p>
                         <ul>
-                            <li>Completed HackerRank Python certification</li>
-                            <li>Built multiple web projects (GameHatch, NotCalculator, NotInsta)</li>
-                            <li>Developed data analysis skills through coursework and projects</li>
-                            <li>Learned frontend development through practical applications</li>
+                            <li>Completed Harvard CS50 Python and HackerRank Python certifications.</li>
+                            <li>Built a full-stack Workout Tracker SaaS to monitor fitness progress and user performance.</li>
+                            <li>Developed data analysis and frontend skills (HTML, CSS, JavaScript) through projects and coursework.</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
     <!-- Skills Section -->
     <section id="skills" class="section">
@@ -126,7 +118,7 @@
                 <div class="skill-card">
                     <i class="fas fa-chart-bar"></i>
                     <h3>Data Visualization</h3>
-                    <p>Tableau, Power BI, Matplotlib</p>
+                    <p>Power BI, Matplotlib, Charts & Dashboards</p>
                 </div>
                 <div class="skill-card">
                     <i class="fas fa-calculator"></i>
@@ -139,7 +131,6 @@
                     <p>HTML, CSS, JavaScript</p>
                 </div>
             </div>
-            <div id="skills-chart" class="analytics-showcase"></div>
         </div>
     </section>
 
@@ -148,133 +139,179 @@
         <div class="container">
             <h2 class="section-title">Featured Projects</h2>
             <div class="projects-grid">
-                <!-- Web Projects -->
-                                 
                 <div class="project-card">
-                    <img src="assests/Muscle map.png" alt="Workout Tracker SAAS">
+                    <div class="project-img-wrap">
+                        <img src="assests/Muscle map.png" alt="Workout Tracker SAAS">
+                    </div>
                     <div class="project-info">
                         <h3>Workout Tracker SAAS</h3>
-                        <p>An all-in-one fitness app to track your workouts, visualize your progress, and reach your goals through personalized data insights.</p>
+                        <p class="project-problem"><strong>Problem:</strong> Users needed a simple way to track workouts and see progress over time.</p>
+                        <p class="project-solution"><strong>Solution:</strong> Full-stack SaaS app for logging workouts, visualizing progress, and viewing personalized data insights.</p>
+                        <p class="project-meta"><strong>Tools:</strong> Full-stack (frontend + backend) · <strong>Impact:</strong> Demonstrates data visualization and user-centric product thinking.</p>
                         <div class="project-links">
-                            <a href="https://github.com/Anshukun888/Workout-saas" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
+                            <a href="https://github.com/Anshukun888/Workout-saas" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
                         </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <img src="assests/game.jpg" alt="GameHatch">
+                    <div class="project-img-wrap">
+                        <img src="assests/game.jpg" alt="GameHatch">
+                    </div>
                     <div class="project-info">
                         <h3>GameHatch</h3>
-                        <p>Interactive PC game download platform with game discovery and community features</p>
+                        <p class="project-problem"><strong>Problem:</strong> Gamers needed a clear place to discover and download PC games.</p>
+                        <p class="project-solution"><strong>Solution:</strong> Interactive PC game download platform with discovery and community features.</p>
+                        <p class="project-meta"><strong>Tools:</strong> Frontend (HTML, CSS, JS) · <strong>Impact:</strong> Shows UI/UX and project delivery skills.</p>
                         <div class="project-links">
-                            <a href="https://github.com/notAnshu1/Game-Hatch" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="https://gamehatch.netlify.app/" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
+                            <a href="https://github.com/notAnshu1/Game-Hatch" target="_blank" rel="noopener"><i class="fab fa-github"></i> Code</a>
+                            <a href="https://gamehatch.netlify.app/" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Live Demo</a>
                         </div>
                     </div>
                 </div>
-  
-                <!-- Data Project Placeholder -->
-                <div class="project-card">
-                    <img src="assests/sale.png" alt="Sales Analysis">
+
+                <div class="project-card project-card--data">
+                    <div class="project-img-wrap">
+                        <img src="assests/sale.png" alt="Sales Data Analysis">
+                    </div>
                     <div class="project-info">
                         <h3>Sales Data Analysis</h3>
-                        <p>Comprehensive analysis of sales data with interactive dashboards</p>
+                        <p class="project-problem"><strong>Problem:</strong> Sales data was scattered and hard to interpret for decision-making.</p>
+                        <p class="project-solution"><strong>Solution:</strong> End-to-end analysis with interactive dashboards and clear KPIs for performance and trends.</p>
+                        <p class="project-meta"><strong>Tools:</strong> Python, Pandas, Visualization · <strong>Impact:</strong> Data-driven insights for business decisions.</p>
                         <div class="project-links">
-                            <a href="#" target="_blank">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                            <a href="#" target="_blank">
-                                <i class="fas fa-external-link-alt"></i> Report
-                            </a>
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Report</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-        <!-- New Awards Section -->
-        <section id="awards" class="section">
-            <div class="container">
-                <h2 class="section-title">Awards & Certifications</h2>
-                <div class="awards-grid">
-                    <!-- Hackathon Award -->
-                    <div class="award-card">
-                        <div class="award-icon">
-                            <i class="fas fa-trophy"></i>
-                        </div>
-                        <div class="award-content">
-                            <h3>1st Place - College Hackathon</h3>
-                            <p class="award-date">2024</p>
-                            <p>Won "Best Creative Idea" award for Smart College</p>
-                        </div>
+
+    <!-- Data Projects / Dashboard Showcase -->
+    <section id="showcase" class="section showcase-section">
+        <div class="container">
+            <h2 class="section-title">Data & Dashboard Showcase</h2>
+            <p class="section-subtitle">Sample KPIs and chart placeholders—replace with your real dashboards or screenshots.</p>
+            <div class="showcase-grid">
+                <div class="showcase-card showcase-kpi">
+                    <div class="showcase-card-inner">
+                        <span class="showcase-label">Sample KPI</span>
+                        <span class="showcase-value">—</span>
+                        <span class="showcase-desc">Replace with your metric</span>
                     </div>
-                    
-                    <!-- HackerRank Certification -->
-                    <div class="award-card">
-                        <div class="award-icon">
-                            <i class="fas fa-certificate"></i>
-                        </div>
-                        <div class="award-content">
-                            <h3>HackerRank Python Certification</h3>
-                            <p class="award-date">2025</p>
-                            <p>Certified Python programmer with problem-solving skills</p>
-                            <a href="https://www.hackerrank.com/certificates/iframe/a636ab60d57e" target="_blank" class="btn-verify">Verify Credential</a>
-                        </div>
+                </div>
+                <div class="showcase-card showcase-kpi">
+                    <div class="showcase-card-inner">
+                        <span class="showcase-label">Sample KPI</span>
+                        <span class="showcase-value">—</span>
+                        <span class="showcase-desc">Replace with your metric</span>
+                    </div>
+                </div>
+                <div class="showcase-card showcase-chart">
+                    <div class="showcase-card-inner chart-placeholder">
+                        <i class="fas fa-chart-line"></i>
+                        <p>Chart / Dashboard placeholder</p>
+                        <span>Add screenshot or embed</span>
+                    </div>
+                </div>
+                <div class="showcase-card showcase-chart">
+                    <div class="showcase-card-inner chart-placeholder">
+                        <i class="fas fa-chart-bar"></i>
+                        <p>Chart / Dashboard placeholder</p>
+                        <span>Add screenshot or embed</span>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section">
+        <div class="container">
+            <h2 class="section-title">Awards & Certifications</h2>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <div class="award-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="award-content">
+                        <h3>1st Place — College Hackathon</h3>
+                        <p class="award-date">2024</p>
+                        <p>Won "Best Creative Idea" for Smart College</p>
+                    </div>
+                </div>
+                <div class="award-card">
+                    <div class="award-icon"><i class="fas fa-certificate"></i></div>
+                    <div class="award-content">
+                        <h3>HackerRank Python Certification</h3>
+                        <p class="award-date">2025</p>
+                        <p>Certified Python programmer with problem-solving skills</p>
+                        <a href="https://www.hackerrank.com/certificates/iframe/a636ab60d57e" target="_blank" rel="noopener" class="btn-verify">Verify Credential</a>
+                    </div>
+                </div>
+                <div class="certificate-card">
+                    <img src="https://certificates.cs50.io/475f5efb-502a-4306-b45f-3c6fb5b0730c.png?size=letter" alt="Harvard CS50 Python Certificate">
+                    <div class="certificate-info">
+                        <h3>Harvard CS50 Python Certificate</h3>
+                        <p>Issued by Harvard University (CS50)</p>
+                        <a href="https://certificates.cs50.io/475f5efb-502a-4306-b45f-3c6fb5b0730c.png?size=letter" target="_blank" rel="noopener">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="section cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Open to Opportunities</h2>
+                <p class="cta-text">I'm actively looking for <strong>internships</strong>, <strong>remote roles</strong>, and <strong>freelance projects</strong> in data analysis, BI, and analytics. Let's build something data-driven together.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="https://github.com/Anshukun888" target="_blank" rel="noopener" class="btn btn-outline">View GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Footer -->
+    <footer class="footer">
 
     <!-- Contact Section -->
     <section id="contact" class="section contact-section">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-subtitle">Let's collaborate and bring your data-driven ideas to life</p>
+            <p class="contact-subtitle">GitHub · Email — reach out for collaborations or opportunities.</p>
             <div class="contact-content">
                 <div class="info-card">
-                    <div class="info-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
+                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
                     <div class="info-details">
                         <h3>Email</h3>
                         <a href="mailto:anshukun777@gmail.com">anshukun777@gmail.com</a>
                     </div>
                 </div>
                 <div class="info-card">
-                    <div class="info-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
+                    <div class="info-icon"><i class="fab fa-github"></i></div>
                     <div class="info-details">
-                        <h3>Location</h3>
-                        <p>Somewhere , Earth</p>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/Anshukun888" target="_blank" rel="noopener">github.com/Anshukun888</a>
                     </div>
                 </div>
-                <div class="social-links">
-                    <h3>Connect With Me</h3>
-                    <div class="social-icons">
-                        <a href="https://github.com/Anshukun888" target="_blank" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="#" target="_blank" title="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
+
+                <div class="info-card">
+                    <div class="info-icon"><i class="fas fa-phone"></i></div>
+                    <div class="info-details">
+                        <h3>Phone</h3>
+                        <a href="tel:+9779864777479">+977 9864777479</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
+
         <div class="container">
             <div class="footer-bottom">
                 <p>&copy; 2026 Anshu Kunwar. All rights reserved.</p>
