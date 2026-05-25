@@ -3,7 +3,7 @@ Hi, I'm Anshu Kunwar 👋
 
 Welcome to my Data Analytics portfolio!
 
-I'm a Data Analyst passionate about turning data into actionable insights. I work with Python, SQL, Tableau, and other analytics tools to help organizations make data-driven decisions.
+I'm a Data Analyst passionate about turning data into actionable insights. I work with Excel, Python, SQL, PowerBI and other analytics tools to help organizations make data-driven decisions.
 
 🔹 What You’ll Find Here
 
