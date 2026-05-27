@@ -537,6 +537,26 @@ body {
     color: var(--dark);
 }
 
+.logo-img-wrap {
+    background: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.logo-img-wrap img {
+    width: auto;
+    height: 140px;
+    object-fit: contain;
+    transform: none;
+}
+
+.project-card:hover .logo-img-wrap img {
+    transform: scale(1.06);
+}
+
+
 /* ===== Data Showcase ===== */
 .showcase-section {
     background: linear-gradient(180deg, var(--darker) 0%, var(--dark) 100%);
@@ -612,6 +632,69 @@ body {
 .chart-placeholder span {
     font-size: 0.8rem;
     opacity: 0.8;
+}
+
+/* ===== Showcase Image Overlay ===== */
+.showcase-img-card .showcase-card-inner {
+    min-height: 220px;
+}
+
+.showcase-img-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius);
+    display: block;
+}
+
+.showcase-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 1.25rem;
+    background: linear-gradient(0deg, rgba(6,6,6,0.88) 0%, transparent 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0 0 var(--radius) var(--radius);
+    opacity: 0;
+    transform: translateY(6px);
+    transition: var(--transition);
+}
+
+.showcase-img-card:hover .showcase-overlay {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.showcase-tag {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--primary);
+    background: rgba(0, 255, 136, 0.12);
+    padding: 0.3rem 0.7rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 255, 136, 0.25);
+}
+
+.showcase-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--light);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.35rem 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: var(--transition);
+}
+
+.showcase-link:hover {
+    background: var(--primary);
+    color: var(--dark);
 }
 
 /* ===== Awards ===== */
